@@ -18,7 +18,6 @@ from imblearn.over_sampling import RandomOverSampler
     Restituisce una lista di tuple, ognuna contenente il nome del video e l'etichetta corrispondente.
 """
 
-
 def calcola_media_colonne(file_excel):
     wb = openpyxl.load_workbook(file_excel)
     foglio = wb.worksheets[0]
